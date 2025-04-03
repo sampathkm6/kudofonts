@@ -1,0 +1,14 @@
+{
+  "name": "kudofonts",
+  "version": "1.0.2",
+  "description": "A custom icon font library by Sampath Kumar",
+  "main": "kudofonts.css",
+  "files": [
+    "kudofonts.css",
+    "fonts/"
+  ],
+  "keywords": ["fonts", "icons", "kudofonts", "font-icon"],
+  "author": "Sampath Kumar",
+  "license": "MIT"
+}
+  
