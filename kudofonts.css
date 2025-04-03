@@ -1,0 +1,542 @@
+@font-face {
+    font-family: "kudofonts";
+    src: url("./kudofonts.eot?eb730f1ae26ff93dd5cb664eeebbd722?#iefix") format("embedded-opentype"),
+url("./kudofonts.woff2?eb730f1ae26ff93dd5cb664eeebbd722") format("woff2"),
+url("./kudofonts.woff?eb730f1ae26ff93dd5cb664eeebbd722") format("woff"),
+url("./kudofonts.ttf?eb730f1ae26ff93dd5cb664eeebbd722") format("truetype"),
+url("./kudofonts.svg?eb730f1ae26ff93dd5cb664eeebbd722#kudofonts") format("svg");
+}
+
+i[class^="kf-"]:before, i[class*=" kf-"]:before {
+    font-family: kudofonts !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.kf-android:before {
+    content: "\f101";
+}
+.kf-Answers:before {
+    content: "\f102";
+}
+.kf-apple:before {
+    content: "\f103";
+}
+.kf-arrow_bottom:before {
+    content: "\f104";
+}
+.kf-arrow_left:before {
+    content: "\f105";
+}
+.kf-arrow_right:before {
+    content: "\f106";
+}
+.kf-arrow_top:before {
+    content: "\f107";
+}
+.kf-arrow-down:before {
+    content: "\f108";
+}
+.kf-arrow-up:before {
+    content: "\f109";
+}
+.kf-audiomack:before {
+    content: "\f10a";
+}
+.kf-bigo:before {
+    content: "\f10b";
+}
+.kf-bolt:before {
+    content: "\f10c";
+}
+.kf-Bookmarks:before {
+    content: "\f10d";
+}
+.kf-boomplay:before {
+    content: "\f10e";
+}
+.kf-calendar:before {
+    content: "\f10f";
+}
+.kf-caret_down:before {
+    content: "\f110";
+}
+.kf-caret_right:before {
+    content: "\f111";
+}
+.kf-cart_shopping:before {
+    content: "\f112";
+}
+.kf-Chatters:before {
+    content: "\f113";
+}
+.kf-chzzk:before {
+    content: "\f114";
+}
+.kf-circle_check:before {
+    content: "\f115";
+}
+.kf-Claps:before {
+    content: "\f116";
+}
+.kf-Clicks:before {
+    content: "\f117";
+}
+.kf-clubhouse:before {
+    content: "\f118";
+}
+.kf-cog:before {
+    content: "\f119";
+}
+.kf-coinhunt:before {
+    content: "\f11a";
+}
+.kf-coinmarketcap:before {
+    content: "\f11b";
+}
+.kf-Coins:before {
+    content: "\f11c";
+}
+.kf-coinsniper:before {
+    content: "\f11d";
+}
+.kf-coinvote:before {
+    content: "\f11e";
+}
+.kf-Comment_Replies:before {
+    content: "\f11f";
+}
+.kf-Comments:before {
+    content: "\f120";
+}
+.kf-Community_Poll_Votes:before {
+    content: "\f121";
+}
+.kf-Connections:before {
+    content: "\f122";
+}
+.kf-copy_1:before {
+    content: "\f123";
+}
+.kf-copy:before {
+    content: "\f124";
+}
+.kf-coub:before {
+    content: "\f125";
+}
+.kf-credit_card:before {
+    content: "\f126";
+}
+.kf-dailymotion:before {
+    content: "\f127";
+}
+.kf-dashboard:before {
+    content: "\f128";
+}
+.kf-datpiff:before {
+    content: "\f129";
+}
+.kf-deezer:before {
+    content: "\f12a";
+}
+.kf-Direct_Messages:before {
+    content: "\f12b";
+}
+.kf-discord:before {
+    content: "\f12c";
+}
+.kf-Dislikes:before {
+    content: "\f12d";
+}
+.kf-download_file:before {
+    content: "\f12e";
+}
+.kf-Downloads:before {
+    content: "\f12f";
+}
+.kf-dribbble:before {
+    content: "\f130";
+}
+.kf-edit:before {
+    content: "\f131";
+}
+.kf-Employees:before {
+    content: "\f132";
+}
+.kf-Endorsements:before {
+    content: "\f133";
+}
+.kf-envelope:before {
+    content: "\f134";
+}
+.kf-Event_Attendees:before {
+    content: "\f135";
+}
+.kf-exclamation_circle:before {
+    content: "\f136";
+}
+.kf-eye_slash:before {
+    content: "\f137";
+}
+.kf-eye:before {
+    content: "\f138";
+}
+.kf-facebook:before {
+    content: "\f139";
+}
+.kf-Fans:before {
+    content: "\f13a";
+}
+.kf-fansly:before {
+    content: "\f13b";
+}
+.kf-Favorites:before {
+    content: "\f13c";
+}
+.kf-file_alt_1:before {
+    content: "\f13d";
+}
+.kf-file_alt:before {
+    content: "\f13e";
+}
+.kf-file_invoice:before {
+    content: "\f13f";
+}
+.kf-film:before {
+    content: "\f140";
+}
+.kf-fiverr:before {
+    content: "\f141";
+}
+.kf-Followers:before {
+    content: "\f142";
+}
+.kf-freshcoins:before {
+    content: "\f143";
+}
+.kf-Friend_Requests:before {
+    content: "\f144";
+}
+.kf-Friends:before {
+    content: "\f145";
+}
+.kf-goodfirms:before {
+    content: "\f146";
+}
+.kf-google:before {
+    content: "\f147";
+}
+.kf-Group_Members:before {
+    content: "\f148";
+}
+.kf-imdb:before {
+    content: "\f149";
+}
+.kf-Impressions:before {
+    content: "\f14a";
+}
+.kf-info_circle:before {
+    content: "\f14b";
+}
+.kf-instagram:before {
+    content: "\f14c";
+}
+.kf-ios:before {
+    content: "\f14d";
+}
+.kf-key:before {
+    content: "\f14e";
+}
+.kf-kick:before {
+    content: "\f14f";
+}
+.kf-kwai:before {
+    content: "\f150";
+}
+.kf-lazada:before {
+    content: "\f151";
+}
+.kf-lemon8:before {
+    content: "\f152";
+}
+.kf-likee:before {
+    content: "\f153";
+}
+.kf-Likes:before {
+    content: "\f154";
+}
+.kf-link:before {
+    content: "\f155";
+}
+.kf-linkedin:before {
+    content: "\f156";
+}
+.kf-Listeners:before {
+    content: "\f157";
+}
+.kf-lock:before {
+    content: "\f158";
+}
+.kf-medium:before {
+    content: "\f159";
+}
+.kf-Members:before {
+    content: "\f15a";
+}
+.kf-Mentions:before {
+    content: "\f15b";
+}
+.kf-menubar:before {
+    content: "\f15c";
+}
+.kf-Messages:before {
+    content: "\f15d";
+}
+.kf-mixcloud:before {
+    content: "\f15e";
+}
+.kf-Monthly_Listeners:before {
+    content: "\f15f";
+}
+.kf-napster:before {
+    content: "\f160";
+}
+.kf-onlyfans:before {
+    content: "\f161";
+}
+.kf-opensea:before {
+    content: "\f162";
+}
+.kf-Others:before {
+    content: "\f163";
+}
+.kf-pandora:before {
+    content: "\f164";
+}
+.kf-pinterest:before {
+    content: "\f165";
+}
+.kf-Plays:before {
+    content: "\f166";
+}
+.kf-podcast:before {
+    content: "\f167";
+}
+.kf-Poll_Votes:before {
+    content: "\f168";
+}
+.kf-Post_Reach:before {
+    content: "\f169";
+}
+.kf-Posts:before {
+    content: "\f16a";
+}
+.kf-Profile_Visits:before {
+    content: "\f16b";
+}
+.kf-provenexpert:before {
+    content: "\f16c";
+}
+.kf-question_circle:before {
+    content: "\f16d";
+}
+.kf-quora:before {
+    content: "\f16e";
+}
+.kf-random:before {
+    content: "\f16f";
+}
+.kf-rarible:before {
+    content: "\f170";
+}
+.kf-Ratings:before {
+    content: "\f171";
+}
+.kf-Re-Ups:before {
+    content: "\f172";
+}
+.kf-Reactions:before {
+    content: "\f173";
+}
+.kf-Reblogs:before {
+    content: "\f174";
+}
+.kf-Recommendations:before {
+    content: "\f175";
+}
+.kf-reddit:before {
+    content: "\f176";
+}
+.kf-Repins:before {
+    content: "\f177";
+}
+.kf-Reposts:before {
+    content: "\f178";
+}
+.kf-Retweets:before {
+    content: "\f179";
+}
+.kf-reverbnation:before {
+    content: "\f17a";
+}
+.kf-Reviews:before {
+    content: "\f17b";
+}
+.kf-reviewsio:before {
+    content: "\f17c";
+}
+.kf-Room_Visitors:before {
+    content: "\f17d";
+}
+.kf-rumble:before {
+    content: "\f17e";
+}
+.kf-sad_tear:before {
+    content: "\f17f";
+}
+.kf-Saves:before {
+    content: "\f180";
+}
+.kf-search:before {
+    content: "\f181";
+}
+.kf-Server_Boost:before {
+    content: "\f182";
+}
+.kf-Shares:before {
+    content: "\f183";
+}
+.kf-shazam:before {
+    content: "\f184";
+}
+.kf-shopee:before {
+    content: "\f185";
+}
+.kf-sitejabber:before {
+    content: "\f186";
+}
+.kf-snackvideo:before {
+    content: "\f187";
+}
+.kf-snapchat:before {
+    content: "\f188";
+}
+.kf-social:before {
+    content: "\f189";
+}
+.kf-soundcloud:before {
+    content: "\f18a";
+}
+.kf-Space_Listeners:before {
+    content: "\f18b";
+}
+.kf-spin:before {
+    content: "\f18c";
+}
+.kf-spotify:before {
+    content: "\f18d";
+}
+.kf-star:before {
+    content: "\f18e";
+}
+.kf-Story_Poll_Votes:before {
+    content: "\f18f";
+}
+.kf-Subscribers:before {
+    content: "\f190";
+}
+.kf-tags:before {
+    content: "\f191";
+}
+.kf-telegram_plane:before {
+    content: "\f192";
+}
+.kf-telegram:before {
+    content: "\f193";
+}
+.kf-threads:before {
+    content: "\f194";
+}
+.kf-tidal:before {
+    content: "\f195";
+}
+.kf-tiktok:before {
+    content: "\f196";
+}
+.kf-times_circle:before {
+    content: "\f197";
+}
+.kf-times:before {
+    content: "\f198";
+}
+.kf-trash_can:before {
+    content: "\f199";
+}
+.kf-tripadvisor:before {
+    content: "\f19a";
+}
+.kf-trovo:before {
+    content: "\f19b";
+}
+.kf-trustpilot:before {
+    content: "\f19c";
+}
+.kf-tumblr:before {
+    content: "\f19d";
+}
+.kf-Tweets:before {
+    content: "\f19e";
+}
+.kf-twitch:before {
+    content: "\f19f";
+}
+.kf-twitter:before {
+    content: "\f1a0";
+}
+.kf-undo_alt:before {
+    content: "\f1a1";
+}
+.kf-update_icon:before {
+    content: "\f1a2";
+}
+.kf-Upvotes:before {
+    content: "\f1a3";
+}
+.kf-user_friends:before {
+    content: "\f1a4";
+}
+.kf-user:before {
+    content: "\f1a5";
+}
+.kf-Views:before {
+    content: "\f1a6";
+}
+.kf-vimeo:before {
+    content: "\f1a7";
+}
+.kf-vk:before {
+    content: "\f1a8";
+}
+.kf-Watch_Time_Hours:before {
+    content: "\f1a9";
+}
+.kf-Watch_Time:before {
+    content: "\f1aa";
+}
+.kf-websitetraffic:before {
+    content: "\f1ab";
+}
+.kf-whatsapp:before {
+    content: "\f1ac";
+}
+.kf-yellowpages:before {
+    content: "\f1ad";
+}
+.kf-youtube:before {
+    content: "\f1ae";
+}
