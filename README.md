@@ -19,15 +19,13 @@ kudofonts/
 ├── kudofonts.json
 ```
 
-## 🚀 How to Use
 
-1. Upload this repo to GitHub.
-2. Enable GitHub Pages from repo settings.
-3. Use the CSS in your website like this:
+## 🔗 Use in Your Project
 
 ```html
-<link rel="stylesheet" href="https://<your-username>.github.io/<sampathkm6>/kudofonts.css">
+<link rel="stylesheet" href="https://sampathkm6.github.io/kudofonts/kudofonts.css">
 <i class="kf-facebook"></i>
+<i class="kf-twitter"></i>
 <i class="kf-youtube"></i>
 ```
 
