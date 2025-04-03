@@ -1,10 +1,11 @@
 @font-face {
     font-family: "kudofonts";
-    src: url("./kudofonts.eot?eb730f1ae26ff93dd5cb664eeebbd722?#iefix") format("embedded-opentype"),
-url("./kudofonts.woff2?eb730f1ae26ff93dd5cb664eeebbd722") format("woff2"),
-url("./kudofonts.woff?eb730f1ae26ff93dd5cb664eeebbd722") format("woff"),
-url("./kudofonts.ttf?eb730f1ae26ff93dd5cb664eeebbd722") format("truetype"),
-url("./kudofonts.svg?eb730f1ae26ff93dd5cb664eeebbd722#kudofonts") format("svg");
+    src: url("fonts/kudofonts.eot");
+    src: url("fonts/kudofonts.eot?#iefix") format("embedded-opentype"),
+         url("fonts/kudofonts.woff2") format("woff2"),
+         url("fonts/kudofonts.woff") format("woff"),
+         url("fonts/kudofonts.ttf") format("truetype"),
+         url("fonts/kudofonts.svg#kudofonts") format("svg");
 }
 
 i[class^="kf-"]:before, i[class*=" kf-"]:before {
