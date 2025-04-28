@@ -2,73 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>kudofonts</title>
-
-    <style>
-
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 10px 20px;
-            text-align: center;
-        }
-
-        .preview {
-            width: 100px;
-            display: inline-block;
-            margin: 10px;
-        }
-
-        .preview .inner {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-            background: #f5f5f5;
-            -webkit-border-radius: 3px 3px 0 0;
-            -moz-border-radius: 3px 3px 0 0;
-            border-radius: 3px 3px 0 0;
-        }
-
-        .preview .inner i {
-            line-height: 85px;
-            font-size: 40px;
-            color: #2d0954;
-        }
-
-        .label {
-            display: inline-block;
-            width: 100%;
-            box-sizing: border-box;
-            padding: 5px;
-            font-size: 10px;
-            font-family: Monaco, monospace;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            background: #ddd;
-            -webkit-border-radius: 0 0 3px 3px;
-            -moz-border-radius: 0 0 3px 3px;
-            border-radius: 0 0 3px 3px;
-            color: #130e92;
-        }
-        h1 {
-            font-size: 30px;
-            color: #130e92;
-            margin-bottom: 20px;
-        }
-        .label:hover {
-            background: #2d0954;
-            color: #fff;
-        } 
-    </style>
-
+    <title>kudofonts</title>        
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="kudofonts.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    
+
 </head>
 <body>
 
-    <h1>kudofonts</h1>
+<div class="navbar">
+    <div class="navbar-content">
+         <div class="logo">
+            <a href="#">Kudofonts</a>
+        </div>
+        <div class="menu">
+        <a href="#about">How it works</a>
+        <a href="#login"><span><i class=" kf-key"></i></span> Login</a>
+        </div>
+    </div>
+</div>
 
+<div class="container">
+    
+    <div class="hero">
+        <div class="header">
+            <h1>Icons That Speak Louder Than Words</h1>
+            <p>Explore thousands of clean, scalable, and customizable icons built for your next masterpiece.</p>
+        </div>
+        
+        <form class="search-box">
+            <input type="text" id="searchBox" placeholder="Search icons..." name="search" onkeyup="filterIcons()">
+            
+        </form>
+        
 
+    </div> 
+    <div class="main">
+    <div id="resultCount">Results: 0 icon(s) found</div>
+    <div id="icons">
         <div class="preview">
             <span class="inner">
                 <i class=" kf-android"></i>
@@ -1634,6 +1606,18 @@
             <span class='label'>youtube</span>
         </div>
 
+    </div>
+    </div>
+
+    </div>
+    <script src="filter.js"></script>
+    <div class="footer">
+
+        <a href="#" class="footer-link">Kudofonts</a>
+        <a href="#" class="footer-link">Icons</a>
+        <a href="#" class="footer-link">License</a>
+        <a href="#" class="footer-link">Request Icons</a>
+    </div>
 
 </body>
 </html>
